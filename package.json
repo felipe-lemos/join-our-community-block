@@ -1,0 +1,16 @@
+{
+  "name": "join-our-community-block",
+  "version": "1.0.0",
+  "description": "A custom Gutenberg block with collapsible accordion behavior.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "plugin-zip": "wp-scripts plugin-zip"
+  },
+  "author": "Your Name",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0"
+  }
+}
