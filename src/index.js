@@ -284,6 +284,36 @@ registerBlockType("custom/join-our-community", {
                     </div>
                   </div>
                 ))}
+                <button
+                  type="button"
+                  className="add-accordion-item"
+                  onClick={() => {
+                    const updated = [
+                      ...items,
+                      {
+                        label: "New Accordion",
+                        content: "Accordion content...",
+                      },
+                    ];
+                    setAttributes({ items: updated });
+                    setOpenIndex(updated.length - 1);
+                  }}
+                  style={{
+                    marginTop: 16,
+                    padding: "8px 16px",
+                    background: "#5B57A2",
+                    color: "#fff",
+                    border: "none",
+                    borderRadius: 4,
+                    cursor: "pointer",
+                    fontWeight: 600,
+                    fontSize: 16,
+                    width: "fit-content",
+                    alignSelf: "flex-start",
+                  }}
+                >
+                  + Add Accordion
+                </button>
               </div>
               <div
                 className="max-width-medium margin-top margin-xxlarge"
