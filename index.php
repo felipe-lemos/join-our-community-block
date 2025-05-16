@@ -3,7 +3,7 @@
  * Plugin Name: Join Our Community Block
  * Description: A custom Gutenberg block with collapsible accordion behavior.
  * Version: 1.0.0
- * Author: Your Name
+ * Author: Felipe Lemos
  */
 
 function join_our_community_block_register() {
